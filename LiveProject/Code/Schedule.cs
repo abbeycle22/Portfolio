@@ -34,6 +34,6 @@ namespace ScheduleIt2.Models
         public bool Repeating { get; set; }
         //added List of scheduled work periods
         [Display(Name = "Scheduled Work Periods")]
-        public List<ScheduledWorkPeriod> ScheduledWorkPeriods { get; set; }
+        public List<ScheduledWorkPeriod> ScheduledWorkPeriods { get; set; } 
     }
 }
