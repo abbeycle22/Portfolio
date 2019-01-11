@@ -11,7 +11,7 @@ using ScheduleIt2.Models;
 
 namespace ScheduleIt2.Controllers
 {
-    public class MessageController : Controller
+    public class MessageController : Controller 
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
