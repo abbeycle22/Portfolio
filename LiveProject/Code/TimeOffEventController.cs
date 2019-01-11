@@ -13,7 +13,7 @@ namespace ScheduleIt2.Controllers
 {
     public class TimeOffEventController : Controller
     {
-        private ApplicationDbContext db = new ApplicationDbContext();
+        private ApplicationDbContext db = new ApplicationDbContext(); 
 
         // GET: TimeOffEvent
         // Makes sure the user is an Admin before allowing them to view the Index
